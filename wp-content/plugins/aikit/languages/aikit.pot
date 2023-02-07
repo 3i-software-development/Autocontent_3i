@@ -1,0 +1,455 @@
+# Copyright (C) 2023 
+# This file is distributed under the same license as the AIKit plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: AIKit 3.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/aikit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-01-29T11:44:41+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: aikit\n"
+
+#. Plugin Name of the plugin
+#: includes/admin.php:154
+msgid "AIKit"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://getaikit.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "AIKit is your WordPress AI assistant, powered by OpenAI's GPT-3 & DALL.E 2."
+msgstr ""
+
+#: aikit.php:72
+msgid "Thank you for using AIKit! Please consider entering your OpenAI key in order to start leveraging AI content generation."
+msgstr ""
+
+#: aikit.php:76
+msgid "Configure AIKit"
+msgstr ""
+
+#: includes/admin.php:33
+msgid "English"
+msgstr ""
+
+#: includes/admin.php:37
+msgid "German"
+msgstr ""
+
+#: includes/admin.php:41
+msgid "French"
+msgstr ""
+
+#: includes/admin.php:45
+msgid "Spanish"
+msgstr ""
+
+#: includes/admin.php:49
+msgid "Italian"
+msgstr ""
+
+#: includes/admin.php:53
+msgid "Portuguese"
+msgstr ""
+
+#: includes/admin.php:57
+msgid "Dutch"
+msgstr ""
+
+#: includes/admin.php:61
+msgid "Polish"
+msgstr ""
+
+#: includes/admin.php:65
+msgid "Russian"
+msgstr ""
+
+#: includes/admin.php:69
+msgid "Japanese"
+msgstr ""
+
+#: includes/admin.php:73
+msgid "Chinese"
+msgstr ""
+
+#: includes/admin.php:77
+msgid "Brazilian Portuguese"
+msgstr ""
+
+#: includes/admin.php:81
+msgid "Turkish"
+msgstr ""
+
+#: includes/admin.php:85
+msgid "Arabic"
+msgstr ""
+
+#: includes/admin.php:89
+msgid "Korean"
+msgstr ""
+
+#: includes/admin.php:93
+msgid "Hindi"
+msgstr ""
+
+#: includes/admin.php:97
+msgid "Indonesian"
+msgstr ""
+
+#: includes/admin.php:101
+msgid "Swedish"
+msgstr ""
+
+#: includes/admin.php:105
+msgid "Danish"
+msgstr ""
+
+#: includes/admin.php:109
+msgid "Finnish"
+msgstr ""
+
+#: includes/admin.php:113
+msgid "Norwegian"
+msgstr ""
+
+#: includes/admin.php:117
+msgid "Romanian"
+msgstr ""
+
+#: includes/admin.php:121
+msgid "Georgian"
+msgstr ""
+
+#: includes/admin.php:125
+msgid "Vietnamese"
+msgstr ""
+
+#: includes/admin.php:129
+msgid "Hungarian"
+msgstr ""
+
+#: includes/admin.php:153
+#: includes/admin.php:163
+msgid "AIKit Settings"
+msgstr ""
+
+#: includes/admin.php:164
+msgid "Settings"
+msgstr ""
+
+#: includes/admin.php:172
+msgid "Add/Edit Prompts (Advanced)"
+msgstr ""
+
+#: includes/admin.php:173
+msgid "Prompts (Advanced)"
+msgstr ""
+
+#: includes/admin.php:194
+#: includes/admin.php:459
+msgid "Save Settings"
+msgstr ""
+
+#: includes/admin.php:306
+msgid "Here you can edit or add new prompts that would appear in the \"AI\" dropdown menu. You can also reorder the prompts by dragging and dropping them in the order you wish. "
+msgstr ""
+
+#: includes/admin.php:307
+msgid "There are lots of online resources that could help and give you tips & trick on how to best edit prompts. Simply search YouTube/Google for \"Prompt engineering\" to gain more knowledge on the topic."
+msgstr ""
+
+#: includes/admin.php:312
+msgid "Add Prompt"
+msgstr ""
+
+#: includes/admin.php:314
+msgid "Resetting prompts will remove all changes you made in this screen, and will bring back the builtin prompts that AIKit provides out of the box. Are you sure you want to proceed?"
+msgstr ""
+
+#: includes/admin.php:315
+msgid "Reset Prompts"
+msgstr ""
+
+#: includes/admin.php:337
+#: includes/admin.php:471
+msgid "Are you sure you want to remove this prompt?"
+msgstr ""
+
+#: includes/admin.php:344
+#: includes/admin.php:478
+msgid "Requires text selection"
+msgstr ""
+
+#: includes/admin.php:347
+#: includes/admin.php:481
+msgid "Choose this option if you want to enforce text selection in the text editor. Most of the time you will want to leave this option selected. Deselect it only if you are adding a prompt that doesn't require input from author, like if you want OpenAI to generate text about random topic for example."
+msgstr ""
+
+#: includes/admin.php:352
+#: includes/admin.php:486
+msgid "Number of words to generate"
+msgstr ""
+
+#: includes/admin.php:361
+#: includes/admin.php:495
+msgid "Fixed number of words"
+msgstr ""
+
+#: includes/admin.php:366
+#: includes/admin.php:500
+msgid "Number of words"
+msgstr ""
+
+#: includes/admin.php:372
+#: includes/admin.php:506
+msgid "Choose this option if you want to generate a fixed number of words, regardless of how long the selected text is. This is helpful for certain types of prompts, like generating a paragraph on a certain topic for example."
+msgstr ""
+
+#: includes/admin.php:384
+#: includes/admin.php:518
+msgid "Relative to length of text selected"
+msgstr ""
+
+#: includes/admin.php:389
+#: includes/admin.php:523
+msgid "Multiplier"
+msgstr ""
+
+#: includes/admin.php:398
+#: includes/admin.php:532
+msgid "Choose this option if you want to calculate the length of the generated words relative to the length of words selected. 1x = same length as select text, 2x means two times, etc. Summarization is a good candidate to use this option for."
+msgstr ""
+
+#: includes/admin.php:408
+#: includes/admin.php:543
+msgid "Prompts"
+msgstr ""
+
+#: includes/admin.php:425
+#: includes/admin.php:427
+#: includes/admin.php:560
+#: includes/admin.php:562
+msgid "Menu title"
+msgstr ""
+
+#: includes/admin.php:430
+#: includes/admin.php:565
+msgid "This is title that will appear in the AI menu for this prompt."
+msgstr ""
+
+#: includes/admin.php:437
+#: includes/admin.php:573
+msgid "Prompt"
+msgstr ""
+
+#: includes/admin.php:440
+#: includes/admin.php:576
+msgid "If this prompt requires text selection, the phrase"
+msgstr ""
+
+#: includes/admin.php:442
+#: includes/admin.php:578
+msgid "will be replaced by the selected text before doing the request. Make sure to include it in your prompt."
+msgstr ""
+
+#: includes/admin.php:603
+msgid "OpenAI Settings"
+msgstr ""
+
+#: includes/admin.php:613
+msgid "OpenAI Key"
+msgstr ""
+
+#: includes/admin.php:624
+msgid "Language for text generation"
+msgstr ""
+
+#: includes/admin.php:635
+msgid "OpenAI Preferred Model"
+msgstr ""
+
+#: includes/admin.php:646
+msgid "Max Tokens Multiplier (text length)"
+msgstr ""
+
+#: includes/admin.php:657
+msgid "Autocompleted Text Background Color"
+msgstr ""
+
+#: includes/admin.php:667
+msgid "Image sizes available"
+msgstr ""
+
+#: includes/admin.php:695
+msgid "Image counts for each size"
+msgstr ""
+
+#: includes/admin.php:705
+msgid "Image generation styles"
+msgstr ""
+
+#: includes/admin.php:713
+msgid "Adjust the plugin to your needs by editing the settings here."
+msgstr ""
+
+#: includes/admin.php:741
+msgid "Image styles are phrases that will be added at the end an image's prompt to change the look of the image. You can use it to maintain a certain style of images for your posts. If you like colorful images, you can add \"colourful\" as one of the styles. If you want to appear as if they were drawn by leonardo davinci, add \"by leonardo davinci\" as a style. Each line would be considered a different style and AIKit will choose a random style out of this list each time it generates an image and append it at the end of the prompt. "
+msgstr ""
+
+#: includes/admin.php:777
+msgid "This controls the number of image you want to generate for each image size, these will appear as options in the AI image generation menu. Enter comma-separated numbers. Example: \"1,2,4\". Maximum allowed number is 10."
+msgstr ""
+
+#: includes/admin.php:789
+msgid "Small"
+msgstr ""
+
+#: includes/admin.php:793
+msgid "This controls the size of the images generated. If you want to have the option to generate small images in the AI image generation menu, check this box."
+msgstr ""
+
+#: includes/admin.php:807
+msgid "Medium"
+msgstr ""
+
+#: includes/admin.php:812
+msgid "If you want to have the option to generate medium images in the AI image generation menu, check this box."
+msgstr ""
+
+#: includes/admin.php:825
+msgid "Large"
+msgstr ""
+
+#: includes/admin.php:830
+msgid "If you want to have the option to generate large images in the AI image generation menu, check this box."
+msgstr ""
+
+#: includes/admin.php:847
+msgid "The OpenAI key is invalid. Make sure you have entered the correct key."
+msgstr ""
+
+#: includes/admin.php:854
+msgid "The OpenAI key is valid."
+msgstr ""
+
+#: includes/admin.php:865
+msgid "For instructions on how to get an OpenAI key, please visit "
+msgstr ""
+
+#: includes/admin.php:896
+msgid "The language of the text you want to generate."
+msgstr ""
+
+#: includes/admin.php:900
+msgid " For consistent autocomplete results, make sure that the text you write in your post is written in the same language you picked here."
+msgstr ""
+
+#: includes/admin.php:942
+msgid "Some models are more capable than others. For example, the davinci model is more capable than the ada model, which is more capable than the babbage model, and so on. The davinci model is the most capable model, but it is also the most expensive model. The ada model is the least capable model, but it is also the least expensive model."
+msgstr ""
+
+#: includes/admin.php:944
+msgid " For more information, see "
+msgstr ""
+
+#: includes/admin.php:960
+msgid ""
+"AIKit's builtin prompts are already preconfigured to generate a sensible number of words depending on the prompt.\n"
+"                However, if you want to change the number of words generated, you can do so here. The slider is a multiplier of the number of tokens that AIKit\n"
+"                would normally generate. For example, if a request would normally generate 100 words, you can set the multiplier to 2x and AIKit will generate 200 words instead."
+msgstr ""
+
+#: includes/admin.php:969
+msgid "Think of this as a global way to increase/decrease the length of generated text for all existing autocomplete options/prompts at once."
+msgstr ""
+
+#: includes/admin.php:982
+msgid "Green"
+msgstr ""
+
+#: includes/admin.php:983
+msgid "Blue"
+msgstr ""
+
+#: includes/admin.php:984
+msgid "Red"
+msgstr ""
+
+#: includes/admin.php:985
+msgid "Orange"
+msgstr ""
+
+#: includes/admin.php:986
+msgid "Purple"
+msgstr ""
+
+#: includes/admin.php:991
+msgid "If you prefer to have the autocompleted text stand out more, you can choose a background color for the autocompleted text."
+msgstr ""
+
+#: fe/build/index.js:418
+#: fe/src/components/aiKitControls.js:425
+#: fe/build/index.js:425
+msgid "small image(s)"
+msgstr ""
+
+#: fe/build/index.js:420
+#: fe/src/components/aiKitControls.js:426
+#: fe/build/index.js:426
+msgid "medium image(s)"
+msgstr ""
+
+#: fe/build/index.js:422
+#: fe/src/components/aiKitControls.js:427
+#: fe/build/index.js:427
+msgid "large image(s)"
+msgstr ""
+
+#: fe/build/index.js:442
+#: fe/src/components/aiKitControls.js:448
+#: fe/build/index.js:448
+msgid "Select how do you want AI to edit your content"
+msgstr ""
+
+#: fe/build/index.js:471
+#: fe/src/components/aiKitControls.js:481
+#: fe/build/index.js:481
+msgid "Generate AI Images using AIKit"
+msgstr ""
+
+#: fe/build/index.js:493
+#: fe/src/components/aiKitControls.js:507
+#: fe/build/index.js:507
+msgid "Missing Text Selection"
+msgstr ""
+
+#: fe/build/index.js:495
+#: fe/src/components/aiKitControls.js:509
+#: fe/build/index.js:509
+msgid "Please make sure to select the text you want to use for AIKit to edit (or operate on)."
+msgstr ""
+
+#: fe/build/index.js:508
+#: fe/src/components/aiKitControls.js:519
+#: fe/build/index.js:519
+msgid "AIKit is not properly configured"
+msgstr ""
+
+#: fe/build/index.js:510
+#: fe/src/components/aiKitControls.js:521
+#: fe/build/index.js:521
+msgid "It seems that AIKit is not configured correctly. Please make sure to enter a valid API key in the settings."
+msgstr ""
+
+#: fe/build/index.js:522
+#: fe/src/components/aiKitControls.js:525
+#: fe/build/index.js:525
+msgid "Go to settings"
+msgstr ""
